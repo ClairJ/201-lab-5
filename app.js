@@ -93,13 +93,12 @@ Test this function by hand in the console to get it working, and when you think 
 // TODO: Write your code here
 var testArray = [2,3,4]; //eslint-disable-line
 function sumArray(testArray){ //eslint-disable-line
-var sum1 = sum(sum(testArray[0],testArray[1])[0],testArray[2]);
-console.log("testArray[0]: " + testArray[0] + " testArray[1] :" + testArray[1] + " testArray[2]: " + testArray[2]);
-console.log("sum1:" + sum1);
-console.log("String Answer: 2,3,4 was passed in as an array of numbers, and 9 is their sum.");
-console.log("My Answer: " + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + sum1 + ' is their sum.');
-return [sum1,testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + sum1 + ' is their sum.']
-
+  var sum1 = sum(sum(testArray[0],testArray[1])[0],testArray[2]);
+  console.log("testArray[0]: " + testArray[0] + " testArray[1] :" + testArray[1] + " testArray[2]: " + testArray[2]);
+  console.log("sum1:" + sum1);
+  console.log("String Answer: 2,3,4 was passed in as an array of numbers, and 9 is their sum.");
+  console.log("My Answer: " + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + sum1 + ' is their sum.');
+  return [sum1,testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' was passed in as an array of numbers, and ' + sum1 + ' is their sum.']
 }
 
 // TODO: Here is the test for sumArray(); uncomment it to run it
